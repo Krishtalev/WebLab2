@@ -1,0 +1,50 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-size: 15px;
+   color:white;
+}
+body{
+   background-color: white;  
+}
+div{
+   width:150px;
+   height: 100px;
+}
+#stat{
+   position: static;
+   background-color:blueviolet;
+}
+#rel1{
+   position: relative;
+   background-color: darkred;
+}
+#rel2{
+   background-color: peru;
+   position: relative;
+   bottom: 40px;
+   left: 40px;
+}
+#rel3{
+   background-color:indianred;
+   width:400px;
+   height:300px;
+   position: relative;
+   margin-bottom: 250px;
+}
+#abs{
+   width: 200px;
+   height: 150px;
+   background-color: indigo;
+   position: absolute;
+   bottom: 50px;
+   right: 0px;
+}
+#fix{
+   width: 100px;
+   position: fixed;
+   background-color: forestgreen;
+   right:0%;
+   bottom: 0%;
+   margin-left: 0px;
+}

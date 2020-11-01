@@ -1,0 +1,21 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-size: 15px;
+   color:black;
+}
+body{
+   background-color: white;  
+}
+.float-box{
+   float: left;
+   width: 150px;
+   height: 75px;
+   margin: 10px;
+   background-color: aquamarine;
+}
+.clear-box{
+   clear: both;
+   background-color:bisque;
+   width: 100%;
+}
